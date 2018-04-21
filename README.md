@@ -1,4 +1,4 @@
-##由于Fork下来的版本不能有效地提交更改，所以新建了一个项目，原始项目请见[https://github.com/xb2016/Kratos](https://github.com/xb2016/Kratos)，还请见谅！
+## 由于Fork下来的版本不能有效地提交更改，所以新建了一个项目，原始项目请见[https://github.com/xb2016/Kratos](https://github.com/xb2016/Kratos)，还请见谅！
 
 # Kratos(三次开发版)
 
