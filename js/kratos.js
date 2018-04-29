@@ -175,7 +175,7 @@
     $.fn.kratos_pjax_reload = function() {
         showPhotos();
         OwOcfg();
-        offcanvas();
+        //offcanvas();
     }
     $(function(){
         shareMenu();
