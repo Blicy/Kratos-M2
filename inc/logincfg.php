@@ -1,7 +1,14 @@
 <?php
 //Custom login
 function custom_login(){
-    echo '<style>body{background:#92C1D1 url('.kratos_option('login_bak').') fixed center top no-repeat!important;background-size:cover!important}.login h1 a{background-image:url('.kratos_option('login_logo').')!important}</style>';
+    $log_bgpic = kratos_option('login_bak');
+    if ($log_bgpic == 'default') {
+        $str = file_get_contents('http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1');
+        $array = json_decode($str);
+        $imgurl = $array->{"images"}[0]->{"url"};
+        $log_bgpic = "https://www.bing.com{$imgurl}";
+    }
+    echo '<style>body{background:#92C1D1 url('.$log_bgpic.') fixed center top no-repeat!important;background-size:cover!important}.login h1 a{background-image:url('.kratos_option('login_logo').')!important}</style>';
     echo '<link rel="stylesheet" id="wp-admin-css" href="'.get_bloginfo('template_directory').'/css/customlogin.min.css" type="text/css" />';
 }
 add_action('login_head','custom_login');

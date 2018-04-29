@@ -597,9 +597,9 @@ function optionsframework_options(){
         'type'=>'heading');
     $options[] = array(
         'name'=>'注册登录页面背景',
-        'desc'=>'因为默认使用了Bing每日美图API，所以这里只能手动写链接了...',
+        'desc'=>'想要使用使用默认（Bing每日美图），请填default',
         'id'=>'login_bak',
-        'std'=>'https://www.fczbl.vip/api/bing',
+        'std'=>'default',
         'type'=>'text');
     $options[] = array(
         'name'=>'注册登录页面站点图标',
