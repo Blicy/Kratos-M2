@@ -13,15 +13,16 @@ ajx_comtpagenav = '#comments-nav' , // 评论分页导航的id或class
 ajx_comtpagenav_a = '#comments-nav a' , // 评论分页导航的a标签
 ajx_sform = '#searchform' , // 搜索表单form标签
 ajx_skey = '#search' ; // 搜索表单input标签内的id或class
+
 function reload_func(){
     // 这里放置需要重载的JS或函数
     $(this).kratos_pjax_reload();
 }
 
-
 $(function() {    
     a(); //pushState初始化执行一次
 });
+
 // 建立锚点函数，用于跳转后的滚动定位，使用这个主要是有侧栏评论带#号时能在请求后定位到该条评论的位置
 function body_am(id) { 
     id = isNaN(id) ? $('#' + id).offset().top : id;
@@ -154,7 +155,7 @@ function() {
     if ((req_url.indexOf( "javascript:") !== -1)||(req_url.indexOf(".php") !== -1)) {
       //ignore
       return true;
-    } else ajax(req_url, 'pagelink');
+    } else ajax($(this).attr("href"), 'pagelink');
     return false;
 });
 //评论ajax

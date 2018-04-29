@@ -24,7 +24,6 @@
                                         echo (!kratos_option('social_github'))?'':'<a target="_blank" rel="nofollow" href="'.kratos_option('social_github').'"><i class="fa fa-github"></i></a>'; ?>
                                     </p>
                                     <p> © <?php echo date('Y'); ?> <a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a>. All Rights Reserved. | 本站已运行<span id=span_dt_dt>Loading...</span><br>Theme <a href="https://github.com/xb2016/kratos" target="_blank" rel="nofollow">Kratos</a> made by <a href="https://www.vtrois.com" target="_blank" rel="nofollow">Vtrois</a>
-                                    <p>自豪地使用<a href="https://wordpress.org/" target="_plank">WordPress</a>~
                                     <?php if(kratos_option('icp_num')) echo '<br><a href="http://www.miitbeian.gov.cn/" rel="external nofollow" target="_blank">'.kratos_option('icp_num').'</a>';
                                           if(kratos_option('gov_num')) echo '<br><a href="'.kratos_option('gov_link').'" rel="external nofollow" target="_blank"><i class="govimg"></i>'.kratos_option('gov_num').'</a>'; ?>
                                     </p>
