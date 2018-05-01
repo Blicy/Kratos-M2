@@ -1,12 +1,15 @@
-# 这玩意BUG太多，请*谨慎使用*！修锅至少要等到暑假……
+# 官方版本已经发布，请移步[https://github.com/xb2016/kratos-pjax](https://github.com/xb2016/kratos-pjax)。该项目仅作为参考。
 
+20180501更新：官方版本已经发布，本版本无限停更。感谢您的使用，我们下期再会。
 20180430更新：使用了CDN加速，如果觉得git clone不够快的话，可以[点击这里下载压缩包](https://s.hilcy.com/Kratos(20180430).zip)
 
 ### 由于Fork下来的版本不能有效地提交更改，所以新建了一个项目，原始项目请见[https://github.com/xb2016/Kratos](https://github.com/xb2016/Kratos)，还请见谅！
 
 # Kratos(三次开发版)
 
-这是Kratos2.5.8的三次开发版本，主打全站pjax。 狗狗大佬的原始版本请访问[https://github.com/xb2016/Kratos](https://github.com/xb2016/Kratos)。
+这是Kratos2.5.8的三次开发版本，主打全站pjax。 
+xb2016原始版本请访问[https://github.com/xb2016/Kratos](https://github.com/xb2016/Kratos)
+官方的pjax版本请访问[https://github.com/xb2016/kratos-pjax](https://github.com/xb2016/kratos-pjax)。
 
 DEMO：[https://lcy.moe](https://lcy.moe) 由于“爱宕”服务器总是时不时发生让人难堪的情况，所以经常搬来搬去，偶尔访问不了也属于正常现象╮(╯▽╰)╭
 
